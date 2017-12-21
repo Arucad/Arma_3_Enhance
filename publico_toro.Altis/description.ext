@@ -1,0 +1,24 @@
+﻿class CfgFunctions
+{
+	class DHUC
+	{
+		class execultarPlayerLocal
+		{
+			file = "dhuc/initPlayerLocal";
+			class restrigirVeiculos{}; // Restringir veiculos
+			class arsenal{}; // addAction Arsenal
+		};
+		
+		class arrVeiculos
+		{
+			file = "dhuc/arrVariaveis";
+			class asaFixa{}; // Array com todos os veiculos de asa fixa
+			class asaRotativa{}; // Array com todos os veiculos de asa rotativa
+			class blindados{}; // Array com todos os veiculos blindados
+			class terrestres{}; // Array com todos os veiculos terrestres
+			class estaticos{}; // Array com todos os veiculos estaticos
+		};
+		
+
+	};
+};

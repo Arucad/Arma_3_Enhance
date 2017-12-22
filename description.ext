@@ -18,7 +18,7 @@
 			class cars{};					// Carros, Caminhões, Quadriciculos, Vans e afins...
 			class drones{};					// Drones, tanto terrestres como aereos
 			class helicopters{};			// Helicopteros
-			class submarine{};				// Submarinos
+			class submarines{};				// Submarinos
 			class supports{};				// Veiculos de Resgate, Especiais
 			class tanks{};					// Tanks
 		};

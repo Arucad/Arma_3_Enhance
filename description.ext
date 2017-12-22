@@ -5,18 +5,22 @@
 		class execultarPlayerLocal
 		{
 			file = "dhuc/initPlayerLocal";
-			class restrigirVeiculos{}; // Restringir veiculos
-			class arsenal{}; // addAction Arsenal
+			class restrigirVeiculos{}; 		// Restringir veiculos
+			class arsenal{}; 				// addAction Arsenal
 		};
 		
-		class arrVeiculos
+		class arrayVeiculos
 		{
-			file = "dhuc/arrVariaveis";
-			class asaFixa{}; // Array com todos os veiculos de asa fixa
-			class asaRotativa{}; // Array com todos os veiculos de asa rotativa
-			class blindados{}; // Array com todos os veiculos blindados
-			class terrestres{}; // Array com todos os veiculos terrestres
-			class estaticos{}; // Array com todos os veiculos estaticos
+			file = "dhuc/arrVariaveis";		// Caminho para Arrays
+			class airplanes{};  			// Aviões             
+			class armored{};				// Blindados
+			class boats{};					// Botes
+			class cars{};					// Carros, Caminhões, Quadriciculos, Vans e afins...
+			class drones{};					// Drones, tanto terrestres como aereos
+			class helicopters{};			// Helicopteros
+			class submarine{};				// Submarinos
+			class supports{};				// Veiculos de Resgate, Especiais
+			class tanks{};					// Tanks
 		};
 		
 
